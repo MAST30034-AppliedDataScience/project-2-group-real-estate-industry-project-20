@@ -21,7 +21,7 @@ BASE_URL = "https://www.domain.com.au"
 get_vic_subs('../australian-postcodes-2021-04-23.csv')
 get_accessible_subs('../data/raw/suburb.txt')
 
-'''
+
 df = pd.read_csv('../data/raw/suburb_accessible.csv')
 
 property_metadata = defaultdict(dict)
@@ -89,12 +89,14 @@ def scrape_suburb_data(sub):
             property_metadata[property_url]['type'] = bs_object \
                 .find("div", {"data-testid": "listing-summary-property-type"}) \
                 .text
-            
+                
+            '''
             # schools
             schools = bs_object.find_all("li", {"data-testid": "fe-co-school-catchment-school"})
             property_metadata[property_url]['schools'] = len(schools)
             print(len(schools))
-                       
+            '''
+                    
             # description
             property_metadata[property_url]['desc'] = re \
                 .sub(r'<br\/>', '\n', str(bs_object.find("p"))) \
@@ -131,4 +133,3 @@ with ThreadPoolExecutor(max_workers=7) as executor:
 with open('../data/raw/current_rent_info.json', 'w') as f:
     dump(property_metadata, f)
     
-'''

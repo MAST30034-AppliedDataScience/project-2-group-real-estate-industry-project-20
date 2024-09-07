@@ -17,10 +17,11 @@ from utilities import get_vic_subs, get_accessible_subs
 # constants
 BASE_URL = "https://www.domain.com.au"
 
+'''
 # Get accessible Victoria suburbs
 get_vic_subs('../australian-postcodes-2021-04-23.csv')
 get_accessible_subs('../data/raw/suburb.txt')
-
+'''
 
 df = pd.read_csv('../data/raw/suburb_accessible.csv')
 
@@ -32,10 +33,9 @@ def scrape_suburb_data(sub):
 
     # generate list of urls to visit
     for page in range(1, df.loc[df['suburb'] == sub, 'total_page'].values[0] + 1):
-        url = BASE_URL + f"/rent/{sub}/?sort=price-desc&page={page}"
-        #print(f"Visiting {url}")
-        bs_object = BeautifulSoup(urlopen(Request(url, headers={'User-Agent':"PostmanRuntime/7.6.0"})), "lxml")
+        url = BASE_URL + f"/rent/{sub}/?ssubs=0&sort=price-desc&page={page}"
         try:
+            bs_object = BeautifulSoup(urlopen(Request(url, headers={'User-Agent':"PostmanRuntime/7.6.0"})), "lxml")
             # find the unordered list (ul) elements which are the results, then
             # find all href (a) tags that are from the base_url website.
             index_links = bs_object \
@@ -52,12 +52,15 @@ def scrape_suburb_data(sub):
                 # if its a property address, add it to the list
                 if 'address' in link['class']:
                     url_links.append(link['href'])
+        except urllib.error.HTTPError as e:
+            if e.code == 500:
+                print(f"Server Error (500) with {url}")
         except Exception as e:
             print(f"Issue with {url}: {e}")
     
     def scrape_features(property_url):
-        bs_object = BeautifulSoup(urlopen(Request(property_url, headers={'User-Agent':"PostmanRuntime/7.6.0"})), "lxml")
         try: 
+            bs_object = BeautifulSoup(urlopen(Request(property_url, headers={'User-Agent':"PostmanRuntime/7.6.0"})), "lxml")
             # looks for the header class to get property name
             property_metadata[property_url]['name'] = bs_object \
                 .find("h1", {"class": "css-164r41r"}) \
@@ -101,33 +104,19 @@ def scrape_suburb_data(sub):
             property_metadata[property_url]['desc'] = re \
                 .sub(r'<br\/>', '\n', str(bs_object.find("p"))) \
                 .strip('</p>')
-            
+        except urllib.error.HTTPError as e:
+            if e.code == 500:
+                print(f"Server Error (500) with {property_url}")    
         except AttributeError:
             print(f"Issue with {property_url}")
-
-    with ThreadPoolExecutor(max_workers=7) as executor:
+       
+    with ThreadPoolExecutor(max_workers=5) as executor:
         list(tqdm(executor.map(scrape_features, url_links), total=len(url_links), desc="Scraping Properties"))
 
 subs = df['suburb'].tolist()
 
-with ThreadPoolExecutor(max_workers=7) as executor:
-        list(tqdm(executor.map(scrape_suburb_data, subs[:150]), total=len(subs[:150]), desc="Scraping Suburbs"))
-        
-time.sleep(10)
-
-with ThreadPoolExecutor(max_workers=7) as executor:
-        list(tqdm(executor.map(scrape_suburb_data, subs[150:300]), total=len(subs[150:300]), desc="Scraping Suburbs 2"))
-  
-time.sleep(10)  
-        
-with ThreadPoolExecutor(max_workers=7) as executor:
-        list(tqdm(executor.map(scrape_suburb_data, subs[300:450]), total=len(subs[300:450]), desc="Scraping Suburbs 3"))
-
-time.sleep(10)
-
-with ThreadPoolExecutor(max_workers=7) as executor:
-        list(tqdm(executor.map(scrape_suburb_data, subs[450:]), total=len(subs[450:]), desc="Scraping Suburbs 4"))
-
+with ThreadPoolExecutor(max_workers=5) as executor:
+        list(tqdm(executor.map(scrape_suburb_data, subs), total=len(subs), desc="Scraping Suburbs"))
 
 # output to json file in data/raw/
 with open('../data/raw/current_rent_info.json', 'w') as f:

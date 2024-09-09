@@ -2,7 +2,7 @@ import re
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from tqdm import tqdm
-from json import dump
+from json import dump, loads
 import pandas as pd
 import time
 
@@ -17,11 +17,10 @@ from utilities import get_vic_subs, get_accessible_subs
 # constants
 BASE_URL = "https://www.domain.com.au"
 
-'''
 # Get accessible Victoria suburbs
 get_vic_subs('../australian-postcodes-2021-04-23.csv')
 get_accessible_subs('../data/raw/suburb.txt')
-'''
+
 
 df = pd.read_csv('../data/raw/suburb_accessible.csv')
 
@@ -53,8 +52,7 @@ def scrape_suburb_data(sub):
                 if 'address' in link['class']:
                     url_links.append(link['href'])
         except urllib.error.HTTPError as e:
-            if e.code == 500:
-                print(f"Server Error (500) with {url}")
+            print(f"HTTP Error {e.code} with {url}")
         except Exception as e:
             print(f"Issue with {url}: {e}")
     
@@ -93,20 +91,22 @@ def scrape_suburb_data(sub):
                 .find("div", {"data-testid": "listing-summary-property-type"}) \
                 .text
                 
-            '''
-            # schools
-            schools = bs_object.find_all("li", {"data-testid": "fe-co-school-catchment-school"})
-            property_metadata[property_url]['schools'] = len(schools)
-            print(len(schools))
-            '''
+            
+            # schools with distance <= 2.5km
+            script = bs_object.find('script', {'id': '__NEXT_DATA__'})
+            if script:
+                json_content = script.string.strip()
+                data = loads(json_content)
+                schools = data.get('props', {}).get('pageProps', {}).get('componentProps', {}).get('schoolCatchment', {}).get('schools', [])
+                num_schools = sum(1 for school in schools if school['distance'] <= 2500)
+                property_metadata[property_url]['schools'] = num_schools
                     
             # description
             property_metadata[property_url]['desc'] = re \
                 .sub(r'<br\/>', '\n', str(bs_object.find("p"))) \
                 .strip('</p>')
         except urllib.error.HTTPError as e:
-            if e.code == 500:
-                print(f"Server Error (500) with {property_url}")    
+            print(f"HTTP Error {e.code} with {property_url}")  
         except AttributeError:
             print(f"Issue with {property_url}")
        

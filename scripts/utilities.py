@@ -61,8 +61,8 @@ def get_accessible_subs(vic_subs_file):
         except requests.exceptions.RequestException:
             return False
 
-    with ThreadPoolExecutor(max_workers=7) as executor:
-        results = list(tqdm(executor.map(check_url, subs), total=len(subs), desc="Checking URLs"))
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        list(tqdm(executor.map(check_url, subs), total=len(subs), desc="Checking URLs"))
 
     df = pd.DataFrame(list(sub_dict.items()), columns=['suburb', 'total_page'])
     df.to_csv('./data/raw/suburb_accessible.csv', index=False)

@@ -22,7 +22,7 @@ def get_vic_subs(aus_subs_file):
     sub['Suburb'] = sub['Suburb'].str.replace(' ', '-')
     sub['merge'] = sub[['Suburb', 'State', 'Zip']].astype(str).agg('-'.join, axis=1)
     s = sub['merge'].drop_duplicates()
-    s.to_csv('./data/raw/suburb.txt', index=False, header=False)
+    s.to_csv('../data/raw/suburb.txt', index=False, header=False)
     print(f"Succesfully get all the Victoria suburbs - Total: {len(s)}")
 
 
@@ -61,11 +61,11 @@ def get_accessible_subs(vic_subs_file):
         except requests.exceptions.RequestException:
             return False
 
-    with ThreadPoolExecutor(max_workers=7) as executor:
-        results = list(tqdm(executor.map(check_url, subs), total=len(subs), desc="Checking URLs"))
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        list(tqdm(executor.map(check_url, subs), total=len(subs), desc="Checking URLs"))
 
     df = pd.DataFrame(list(sub_dict.items()), columns=['suburb', 'total_page'])
-    df.to_csv('./data/raw/suburb_accessible.csv', index=False)
+    df.to_csv('../data/raw/suburb_accessible.csv', index=False)
     f.close()
     print(f'Successfully get all the accessible suburbs - {len(sub_dict)} suburbs with >= 1 page')
     

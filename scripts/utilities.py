@@ -26,6 +26,15 @@ def get_vic_subs(aus_subs_file):
     print(f"Succesfully get all the Victoria suburbs - Total: {len(s)}")
 
 
+def get_vic_subs_as_csv(aus_subs_file):
+    sub = pd.read_csv(aus_subs_file)
+    sub = sub[(sub['State'] == 'VIC') & (3000 <= sub['Zip']) & (sub['Zip'] <= 3999)].sort_values('Zip')
+    sub[['Suburb', 'State']] = sub[['Suburb', 'State']].apply(lambda x: x.str.lower())
+    sub['Suburb'] = sub['Suburb'].str.replace(' ', ',')
+    sub = sub[['Suburb', 'State', 'Zip']].drop_duplicates()
+    sub.to_csv('../data/raw/vic_suburbs.csv', index=False, header=False)
+    print(f"Succesfully get all the Victoria suburbs - Total: {len(sub)}")
+
 def get_accessible_subs(vic_subs_file):
     sub_dict = {}
 
@@ -60,6 +69,5 @@ def get_accessible_subs(vic_subs_file):
     f.close()
     print(f'Successfully get all the accessible suburbs - {len(sub_dict)} suburbs with >= 1 page')
     
-
 
 

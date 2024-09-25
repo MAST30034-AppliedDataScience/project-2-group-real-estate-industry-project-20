@@ -134,8 +134,5 @@ data/raw/
 data/landing/
 data/population/
 
-# plots
-plots/migrants/
-
 # OSX .DS_Store file
 .DS_Store

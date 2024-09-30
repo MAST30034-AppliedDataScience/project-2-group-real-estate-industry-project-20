@@ -1,0 +1,425 @@
+SA2_Name,count
+Melbourne CBD - North,305
+Melbourne CBD - West,268
+Southbank - East,242
+Docklands,172
+Melbourne CBD - East,159
+Carlton,145
+Clyde North - South,122
+Footscray,120
+South Yarra - North,117
+Werribee - East,112
+Southbank (West) - South Wharf,109
+Rockbank - Mount Cottrell,102
+St Kilda - Central,100
+Tarneit - North,100
+West Melbourne - Residential,96
+Richmond - North,96
+St Kilda East,91
+Prahran - Windsor,89
+Truganina - North,87
+South Melbourne,87
+Albert Park,85
+Melton South - Weir Views,83
+North Melbourne,79
+Hawthorn East,74
+St Kilda - West,71
+Caulfield - North,69
+Barwon Heads - Armstrong Creek,68
+Bendigo,68
+Mickleham - Yuroke,67
+Malvern East,66
+Point Nepean,64
+South Yarra - South,63
+Manor Lakes - Quandong,62
+Frankston,62
+Wallan,61
+Elwood,60
+Geelong,59
+Whittlesea,58
+Malvern - Glen Iris,58
+Doncaster,57
+Carnegie,57
+Shepparton - North,56
+South Yarra - West,54
+Geelong West - Hamlyn Heights,54
+Alfredton,53
+Fraser Rise - Plumpton,52
+Ormond - Glen Huntly,51
+Toorak,49
+Clayton - Central,49
+Sebastopol - Redan,48
+Highton,48
+Abbotsford,47
+Port Melbourne,47
+Yarraville,45
+Dandenong - North,45
+Beaconsfield - Officer,43
+Hoppers Crossing - South,43
+Truganina - South West,42
+Tarneit - Central,42
+Tarneit - South,41
+Richmond (South) - Cremorne,41
+Rosebud - McCrae,41
+Point Cook - South,41
+Wendouree - Miners Rest,41
+Kensington (Vic.),41
+Mildura - North,41
+Essendon (West) - Aberfeldie,39
+Thornbury,39
+Armadale,39
+Camberwell,39
+Bacchus Marsh,39
+Coburg - East,37
+Grovedale - Mount Duneed,37
+North Geelong - Bell Park,36
+East Melbourne,35
+Maribyrnong,35
+Balwyn North,34
+Highett (East) - Cheltenham,34
+Charlemont,33
+Essendon - East,33
+Flemington,33
+Glen Waverley - West,33
+Point Cook - East,32
+Hawthorn - North,32
+Preston - East,32
+Newcomb - Moolap,31
+Kew - West,31
+Parkville,31
+Melton West,31
+Traralgon - West,31
+Ivanhoe,31
+Elsternwick,30
+Doncaster East - South,30
+Preston - West,30
+Belmont,30
+Northcote - West,30
+Lara,29
+Ballarat,29
+Hampton,29
+Seaford (Vic.),29
+Newport,29
+Fitzroy North,29
+Ascot Vale,28
+Bentleigh - McKinnon,28
+Carlton North - Princes Hill,28
+Caulfield - South,27
+Kangaroo Flat - Golden Square,27
+Kew - South,27
+Balwyn,27
+Werribee - West,27
+Berwick - South East,27
+East Bendigo - Kennington,27
+Springvale,27
+Norlane,26
+Glen Waverley - East,26
+Alphington - Fairfield,26
+West Footscray - Tottenham,25
+Fitzroy,25
+Flora Hill - Spring Gully,25
+Thomastown,25
+Ballarat North - Invermay,25
+Altona North,24
+Gisborne,24
+Reservoir - North East,24
+Clayton South,24
+Ringwood,24
+Altona,23
+Epping (Vic.) - West,23
+Avoca,23
+Clayton (North) - Notting Hill,23
+Ocean Grove,23
+Pakenham - South West,23
+Reservoir - South East,23
+Heidelberg - Rosanna,22
+Noble Park - East,22
+Bairnsdale,22
+Ringwood East,21
+Dandenong North,21
+St Albans - North,21
+Ardeer - Albion,21
+Nunawading,21
+Pascoe Vale,21
+Newtown (Vic.),21
+Hawthorn - South,21
+Caroline Springs,21
+Berwick - North,21
+Heidelberg West,20
+Glenroy - East,20
+Berwick - South West,20
+Wonthaggi - Inverloch,20
+Altona Meadows,20
+Mentone,20
+Torquay,20
+Eynesbury - Exford,20
+Point Cook - North West,20
+Hastings - Somers,19
+Portarlington,19
+Vermont South,19
+Laverton,19
+Carrum Downs,19
+Frankston North,19
+Pakenham - North East,19
+Warrnambool - North,18
+Melton,18
+Oakleigh - Huntingdale,18
+Mill Park - South,18
+Avondale Heights,18
+Lakes Entrance,18
+Keilor East,18
+Doncaster East - North,18
+Canadian - Mount Clear,18
+Ashwood - Chadstone,17
+Hampton Park - West,17
+Echuca,17
+Truganina - South East,17
+Kurunjang - Toolern Vale,17
+Highett (West) - Cheltenham,17
+Viewbank - Yallambie,17
+Seddon - Kingsville,17
+Bentleigh East - North,17
+Warragul,17
+Horsham,17
+Ferntree Gully - North,17
+Daylesford,16
+Clarinda - Oakleigh South,16
+Wantirna South,16
+Ballarat East - Warrenheip,16
+Mount Waverley - South,16
+Knoxfield - Scoresby,16
+Point Cook - North East,16
+Mernda - South,16
+Airport West,15
+Mernda - North,15
+Diggers Rest,15
+Carrum - Patterson Lakes,15
+Ferntree Gully (South) - Upper Ferntree Gully,15
+Meadow Heights,15
+Ringwood North,15
+Lalor - East,15
+Deer Park,15
+Glenroy - West,14
+Tullamarine,14
+Hughesdale,14
+Greensborough,14
+Doveton,14
+Gladstone Park - Westmeadows,14
+Reservoir - South West,14
+Lynbrook - Lyndhurst,14
+Portland,14
+Hoppers Crossing - North,14
+Wheelers Hill,14
+Templestowe,13
+Churchill,13
+Braybrook,13
+Fawkner,13
+Greenvale - Bulla,13
+Frankston South,13
+Werribee - South,13
+Noble Park - West,13
+Coburg - West,13
+Narre Warren - South West,13
+Surrey Hills (West) - Canterbury,13
+Templestowe Lower,13
+Wangaratta,13
+Mount Waverley - North,13
+Mildura - South,13
+Clifton Springs,13
+Maryborough (Vic.),12
+Niddrie - Essendon West,12
+Doreen - South,12
+Cobram,12
+Narre Warren South - West,12
+Ashburton (Vic.),12
+Bentleigh East - South,12
+Dromana,12
+Kialla,12
+Epping - East,12
+Point Lonsdale - Queenscliff,12
+Langwarrin,12
+Keysborough - North,12
+Surrey Hills (East) - Mont Albert,12
+Eltham,12
+Campbellfield - Coolaroo,11
+Keilor Downs,11
+Watsonia,11
+Beaumaris,11
+Wantirna,11
+White Hills - Ascot,11
+Ararat,11
+Kilsyth,11
+Doreen - North,11
+Clifton Hill - Alphington,11
+Mill Park - North,11
+Glen Iris - East,11
+Cobblebank - Strathtulloh,10
+Drouin,10
+Box Hill North,10
+Flemington Racecourse,10
+Benalla,10
+Sale,10
+Bayswater,10
+Flinders,10
+Hallam,9
+Moyne - West,9
+South Morang - South,9
+Castlemaine,9
+Yarrawonga,9
+Donvale - Park Orchards,9
+Mordialloc - Parkdale,9
+Sandringham - Black Rock,9
+Endeavour Hills - South,9
+Castlemaine Surrounds,9
+California Gully - Eaglehawk,9
+Lorne - Anglesea,9
+Northcote - East,8
+Narre Warren - North East,8
+Lalor - West,8
+Leopold,8
+Kilmore - Broadford,8
+Hamilton (Vic.),8
+Ivanhoe East - Eaglemont,8
+Keysborough - South,8
+Royal Botanic Gardens Victoria,7
+Mount Dandenong - Olinda,7
+South Morang - North,7
+Forest Hill,7
+Narre Warren South - East,7
+Somerville,7
+Endeavour Hills - North,7
+Vermont,7
+Delacombe,7
+Kyabram,7
+Edithvale - Aspendale,7
+St Albans - South,7
+Paynesville,7
+Pascoe Vale South,7
+Pakenham - North West,7
+Mansfield (Vic.),7
+Corangamite - South,7
+Kyneton,7
+Hampton Park - East,6
+Euroa,6
+Maffra,6
+Moe - Newborough,6
+Coburg North,6
+Seabrook,6
+Foster,6
+Kew East,6
+Kings Park (Vic.),6
+Korumburra,6
+Smythes Creek,6
+Kingsbury,6
+Derrimut,6
+Irymple,5
+Golden Plains - North,5
+Delahey,5
+Baranduda - Leneva,5
+Moyne - East,5
+Roxburgh Park - North,5
+Riddells Creek,5
+Hillside,5
+Red Cliffs,5
+Emerald - Cockatoo,5
+Otway,5
+Moorabbin - Heatherton,5
+Nhill Region,5
+Taylors Hill,5
+Leongatha,5
+Hadfield,5
+Southern Grampians,5
+Bright - Mount Beauty,5
+Winchelsea,5
+Romsey,5
+Reservoir - North West,5
+Lilydale - Coldstream,5
+Phillip Island,5
+Chelsea - Bonbeach,5
+Cairnlea,5
+Wandin - Seville,4
+Stawell,4
+Trafalgar (Vic.),4
+Numurkah,4
+Chirnside Park,4
+Taylors Lakes,4
+Beechworth,4
+Koo Wee Rup,4
+Rowville - South,4
+Yallourn North - Glengarry,4
+Seymour,4
+Rowville - North,4
+Rowville - Central,4
+Wattle Glen - Diamond Creek,4
+Narre Warren North,4
+Longford - Loch Sport,4
+Port Melbourne Industrial,4
+Shepparton - South East,4
+Bayswater North,4
+Shepparton Surrounds - East,3
+Rutherglen,3
+West Wodonga,3
+Yea,3
+Creswick - Clunes,3
+Springvale South,3
+Upwey - Tecoma,3
+Oak Park,3
+Yarram,3
+Yarra Valley,3
+Camperdown,3
+Corio - Lovely Banks,3
+Shepparton Surrounds - West,3
+Chelsea Heights,3
+Bunyip - Garfield,3
+Keilor,3
+Pearcedale - Tooradin,2
+Mildura Surrounds,2
+Aspendale Gardens - Waterways,2
+Towong,2
+Kerang,2
+Mount Evelyn,2
+Bacchus Marsh Surrounds,2
+Macedon,2
+Maiden Gully,2
+Hurstbridge,2
+Myrtleford,2
+Corangamite - North,2
+Mount Baw Baw Region,2
+Orbost,2
+Warrnambool - South,2
+Bendigo Surrounds - North,2
+Wangaratta Surrounds,2
+Alexandra,2
+Colac,2
+Nagambie,2
+West Wimmera,2
+Skye - Sandhurst,2
+Colac Surrounds,2
+Croydon Hills - Warranwood,2
+Bendigo Surrounds - South,2
+Epping - South,1
+Gowanbrae,1
+Horsham Surrounds,1
+Strathfieldsaye,1
+Woodend,1
+Gordon (Vic.),1
+Rushworth,1
+Heathcote,1
+Rosedale,1
+Maryborough Surrounds,1
+Noble Park North,1
+Benalla Surrounds,1
+Broadmeadows,1
+The Basin,1
+Bruthen - Omeo,1
+Cranbourne South,1
+Healesville - Yarra Glen,1
+Pakenham - South East,1
+Research - North Warrandyte,1
+Seymour Surrounds,1
+Yarriambiack,1
+Glenelg (Vic.),1
+Dingley Village,1
+Belgrave - Selby,1
+Merbein,1
+Golden Plains - South,1

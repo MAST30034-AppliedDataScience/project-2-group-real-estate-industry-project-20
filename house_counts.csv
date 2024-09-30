@@ -1,0 +1,607 @@
+suburb,count
+Melbourne,849
+Southbank,351
+South Yarra,219
+Tarneit,183
+Docklands,172
+Carlton,149
+Truganina,146
+St Kilda,144
+Richmond,137
+Footscray,122
+Werribee,112
+Point Cook,109
+West Melbourne,90
+Prahran,88
+Clyde North,81
+South Melbourne,80
+North Melbourne,79
+Frankston,70
+Berwick,68
+Clayton,66
+Malvern East,66
+Reservoir,65
+Hawthorn East,64
+Hawthorn,63
+Manor Lakes,62
+St Kilda East,62
+Caulfield North,61
+Preston,61
+Doncaster,61
+Elwood,60
+Armstrong Creek,60
+Glen Waverley,59
+Kew,59
+Shepparton,58
+Carnegie,57
+Hoppers Crossing,57
+Bendigo,54
+Mildura,54
+Donnybrook,53
+Port Melbourne,51
+Coburg,51
+Pakenham,50
+Toorak,49
+Essendon,49
+Abbotsford,47
+Dandenong,46
+Yarraville,45
+Melton South,45
+Rockbank,44
+Highton,44
+Doncaster East,44
+Glen Iris,42
+Clyde,41
+Mickleham,41
+Kensington,41
+Wendouree,40
+Officer,39
+Deanside,39
+Camberwell,39
+Armadale,39
+Thornbury,39
+Weir Views,38
+Northcote,38
+Alfredton,38
+Thornhill Park,37
+Kalkallo,36
+Epping,36
+Rye,36
+Geelong,35
+Noble Park,35
+Maribyrnong,35
+East Melbourne,35
+Fraser Rise,35
+Glenroy,34
+Cheltenham,34
+Balwyn North,33
+Sebastopol,33
+Wallan,32
+Ringwood,31
+Parkville,31
+Traralgon,31
+Mernda,31
+Ivanhoe,31
+Ferntree Gully,30
+Belmont,30
+Grovedale,30
+Flemington,29
+Mount Waverley,29
+Seaford,29
+Bentleigh East,29
+Fitzroy North,29
+Lara,29
+Mill Park,29
+Elsternwick,29
+Rosebud,28
+Ascot Vale,28
+Charlemont,28
+Springvale,27
+Beveridge,27
+St Albans,27
+Mambourin,27
+Bentleigh,26
+Fitzroy,25
+Thomastown,25
+Altona North,24
+Malvern,24
+Balwyn,24
+Balaclava,24
+Ormond,24
+Bacchus Marsh,23
+Norlane,23
+Ocean Grove,23
+Gisborne,23
+Lalor,23
+West Footscray,23
+Doreen,23
+Hampton Park,23
+Clayton South,23
+Altona,22
+Narre Warren,22
+Caroline Springs,21
+Pascoe Vale,21
+Geelong West,21
+Newtown,21
+Nunawading,21
+Mentone,20
+Eynesbury,20
+Altona Meadows,20
+Dandenong North,20
+Keysborough,20
+Carlton North,19
+Ballarat Central,19
+Carrum Downs,19
+Hampton,19
+Laverton,19
+Vermont South,19
+Lucas,19
+Avondale Heights,18
+Albert Park,18
+Essendon North,18
+Keilor East,18
+Narre Warren South,18
+Warrnambool,18
+Caulfield South,18
+Melton,18
+Kurunjang,17
+Warragul,17
+Kennington,17
+Albion,17
+Echuca,17
+Horsham,17
+Torquay,17
+Aintree,17
+Wantirna South,16
+Newcomb,16
+South Morang,16
+Huntly,16
+Endeavour Hills,16
+Ballarat East,16
+Melton West,16
+Highett,16
+Newport,16
+Redan,15
+Diggers Rest,15
+Bell Park,15
+Deer Park,15
+Airport West,15
+Ringwood East,15
+Alphington,15
+Templestowe,15
+Harkness,15
+Meadow Heights,15
+Heidelberg Heights,14
+Wheelers Hill,14
+Portland,14
+Heidelberg,14
+Hughesdale,14
+East Geelong,14
+Tullamarine,14
+Travancore,14
+Kangaroo Flat,14
+Fawkner,13
+Werribee South,13
+Golden Square,13
+Oakleigh South,13
+Greenvale,13
+Canterbury,13
+Bairnsdale,13
+Wangaratta,13
+Lakes Entrance,13
+Frankston South,13
+Cobram,12
+Greensborough,12
+Ashburton,12
+Rowville,12
+Mont Albert,12
+Maidstone,12
+Hastings,12
+Langwarrin,12
+Flora Hill,12
+Soldiers Hill,12
+Maryborough,12
+Kialla,12
+Caulfield,11
+Herne Hill,11
+Daylesford,11
+Clifton Hill,11
+Beaumaris,11
+Canadian,11
+Doveton,11
+Eltham,11
+Patterson Lakes,11
+Ararat,11
+Glen Huntly,11
+Hamlyn Heights,11
+Kilsyth,11
+Fairfield,11
+Chadstone,11
+Templestowe Lower,11
+Frankston North,11
+Wantirna,11
+Tootgarook,10
+Sale,10
+Macleod,10
+Seddon,10
+Benalla,10
+Cobblebank,10
+Quarry Hill,10
+Sorrento,10
+Scoresby,10
+Hampton East,10
+Mont Albert North,10
+Watsonia,10
+Bayswater,10
+Oakleigh,10
+Hallam,9
+Spotswood,9
+Point Lonsdale,9
+Sandringham,9
+Port Fairy,9
+Capel Sound,9
+Niddrie,9
+Darley,9
+St Kilda West,9
+Yarrawonga,9
+Parkdale,9
+Whittington,9
+North Bendigo,8
+St Leonards,8
+Drouin,8
+Ringwood North,8
+Clifton Springs,8
+Fyansford,8
+Chelsea,8
+Rosanna,8
+Middle Park,8
+Leopold,8
+Hamilton,8
+Donvale,8
+Churchill,8
+Bell Post Hill,8
+Keilor Downs,8
+Barwon Heads,7
+North Geelong,7
+Pascoe Vale South,7
+Maddingley,7
+Delacombe,7
+Waurn Ponds,7
+San Remo,7
+Forest Hill,7
+Notting Hill,7
+Westmeadows,7
+Gladstone Park,7
+Vermont,7
+Golden Point,7
+Lyndhurst,7
+Kilmore,7
+Kingsville,7
+South Geelong,7
+Safety Beach,7
+White Hills,7
+Portarlington,7
+Castlemaine,7
+Portsea,7
+Lynbrook,7
+Black Hill,7
+St Albans Park,6
+Ballarat North,6
+East Bendigo,6
+Seabrook,6
+Euroa,6
+Kyneton,6
+Campbellfield,6
+Aberfeldie,6
+Eaglemont,6
+Oakleigh East,6
+Heathmont,6
+Heidelberg West,6
+Derrimut,6
+Ashwood,6
+Knoxfield,6
+Caulfield East,6
+Kyabram,5
+Marshall,5
+Korumburra,5
+Cairnlea,5
+Peterborough,5
+Dallas,5
+Aspendale,5
+East Bairnsdale,5
+California Gully,5
+Mansfield,5
+Flinders,5
+Riddells Creek,5
+Lake Wendouree,5
+Taylors Hill,5
+Drysdale,5
+Hillside,5
+Kew East,5
+Dromana,5
+Smythes Creek,5
+Whittlesea,5
+Ripponlea,5
+North Wonthaggi,5
+Lilydale,5
+Roxburgh Park,5
+Delahey,5
+Hadfield,5
+Newborough,5
+Coburg North,5
+Rippleside,5
+Kingsbury,5
+Heatherton,5
+Beechworth,4
+Anglesea,4
+Narre Warren North,4
+Red Cliffs,4
+Deepdene,4
+Carrum,4
+Ardeer,4
+Seymour,4
+Stawell,4
+Leongatha,4
+Diamond Creek,4
+South Kingsville,4
+Irymple,4
+McCrae,4
+Yallambie,4
+Viewbank,4
+Chirnside Park,4
+Somerville,4
+Bittern,4
+Indented Head,4
+Maffra,4
+Wandana Heights,4
+Kings Park,4
+Beaconsfield,4
+Baranduda,4
+Lucknow,3
+Shoreham,3
+Taylors Lakes,3
+Ironbark,3
+Eumemmerring,3
+Spring Gully,3
+Eagle Point,3
+Queenscliff,3
+Numurkah,3
+Kaniva,3
+Lake Gardens,3
+West Wodonga,3
+Thomson,3
+North Shore,3
+Oak Park,3
+Lorne,3
+Foster,3
+Campbells Creek,3
+Keilor,3
+Baxter,3
+Epsom,3
+Bayswater North,3
+Lovely Banks,3
+Kooyong,3
+Springvale South,3
+Manifold Heights,3
+Tatura,3
+Long Gully,3
+Jan Juc,3
+Eaglehawk,3
+Cape Woolamai,3
+Camperdown,3
+Clarinda,3
+Somers,3
+Inverloch,3
+Paynesville,3
+Metung,2
+Hepburn Springs,2
+Seaspray,2
+Lake Bunga,2
+Aireys Inlet,2
+Yinnar,2
+Harcourt,2
+Trafalgar,2
+Dunkeld,2
+Hurstbridge,2
+Huntingdale,2
+Toongabbie,2
+Timboon,2
+Rutherglen,2
+Heyfield,2
+Mount Evelyn,2
+Cobden,2
+Kerang,2
+Emerald,2
+Freshwater Creek,2
+Venus Bay,2
+Lancefield,2
+Maiden Gully,2
+Nar Nar Goon,2
+Penshurst,2
+McKinnon,2
+Tawonga South,2
+Smythesdale,2
+Essendon West,2
+Upwey,2
+Ivanhoe East,2
+Edenhope,2
+Macedon,2
+Apollo Bay,2
+Clunes,2
+Deans Marsh,2
+Skenes Creek,2
+Cape Paterson,2
+Bonnie Doon,2
+Sassafras,2
+Gembrook,2
+Shepparton North,2
+Enfield,2
+Longlea,2
+Port Campbell,2
+Upper Ferntree Gully,2
+Keilor Park,2
+Elliminyt,2
+Albanvale,2
+Strathdale,2
+Maldon,2
+Cardinia,2
+Warranwood,2
+Glenburn,2
+Ventnor,1
+Trafalgar East,1
+Glengarry,1
+Newhaven,1
+Junction Village,1
+Reedy Creek,1
+Heathcote,1
+Trentham,1
+St Helena,1
+Romsey,1
+Birregurra,1
+Kalimna,1
+Tongala,1
+Parwan,1
+Lockwood,1
+Terang,1
+Allansford,1
+Drumcondra,1
+Cardigan,1
+Edi,1
+Katandra West,1
+Sherbrooke,1
+Gowanbrae,1
+Rushworth,1
+Walmer,1
+Seville,1
+Ashbourne,1
+St Andrews Beach,1
+Armstrong,1
+Waubra,1
+Ovens,1
+Yarram,1
+Yinnar South,1
+Natimuk,1
+Nichols Point,1
+West Bendigo,1
+Bakery Hill,1
+Noble Park North,1
+Fryerstown,1
+Chewton,1
+Teesdale,1
+Tarwin Lower,1
+Warburton,1
+Dookie,1
+Towong Upper,1
+Pearcedale,1
+Katunga,1
+Carisbrook,1
+Newington,1
+Wandin North,1
+Cardross,1
+Jackass Flat,1
+Oxley,1
+Learmonth,1
+Eskdale,1
+Goorambat,1
+Pakenham Upper,1
+Dennington,1
+Tecoma,1
+Gordon,1
+Eganstown,1
+Preston West,1
+Dimboola,1
+Eltham North,1
+Scarsdale,1
+Junortoun,1
+Malmsbury,1
+Ballan,1
+Toora,1
+The Patch,1
+Harrietville,1
+Yarragon,1
+Omeo,1
+Orbost,1
+Park Orchards,1
+Rosedale,1
+Leslie Manor,1
+Neerim,1
+Barongarook,1
+Wahgunyah,1
+Nar Nar Goon North,1
+The Basin,1
+Underbool,1
+Neerim South,1
+Dalyston,1
+Ascot,1
+Glenaroua,1
+Bass,1
+Gherang,1
+Killawarra,1
+Alexandra,1
+Kilcunda,1
+Nhill,1
+Drouin East,1
+Marlo,1
+Yarra Junction,1
+Waterways,1
+Yallourn North,1
+Ouyen,1
+Merricks Beach,1
+Leneva,1
+Gardenvale,1
+Germantown,1
+Keilor Lodge,1
+Hesket,1
+Hopetoun,1
+Poowong,1
+Golden Beach,1
+Jacana,1
+Aspendale Gardens,1
+Rochford,1
+Millgrove,1
+Yarra Glen,1
+New Gisborne,1
+Nagambie,1
+Olinda,1
+Longwarry,1
+Porepunkah,1
+Edithvale,1
+Wheatsheaf,1
+Robertsons Beach,1
+Koo Wee Rup,1
+Killara,1
+Gorae West,1
+Merriang South,1
+Seaholme,1
+Yea,1
+Kilsyth South,1
+Upper Plenty,1
+Forrest,1
+Red Hill South,1
+North Warrandyte,1
+Kirwans Bridge,1
+Hazelwood North,1
+Tallygaroopna,1
+Dingley Village,1
+Kallista,1
+Sandhurst,1
+Cambrian Hill,1
+Skye,1
+Callignee,1
+Ferny Creek,1
+Gruyere,1
+Belgrave,1
+Miners Rest,1
+Watsonia North,1
+Prahran East,1
+McKenzie Hill,1
+Kealba,1
+Marong,1
+Raymond Island,1
+Paradise Beach,1
+Ecklin South,1
+Lang Lang,1
+Koonwarra,1
+Eastwood,1
+Merbein,1
+Eildon,1

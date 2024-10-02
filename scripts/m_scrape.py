@@ -18,7 +18,7 @@ from utilities import get_vic_subs, get_accessible_subs
 BASE_URL = "https://www.domain.com.au"
 
 # Get accessible Victoria suburbs
-get_vic_subs('../australian-postcodes-2021-04-23.csv')
+get_vic_subs('../data/australian-postcodes-2021-04-23.csv')
 get_accessible_subs('../data/raw/suburb.txt')
 
 

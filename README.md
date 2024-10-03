@@ -9,16 +9,24 @@
 
 ## Research Goal:
 • Predict rental price in Victoria, and decide the most important features for prediction
+
 • Predict top 10 suburbs with highest median rental price in Victoria for 2025, 2026 and 2027
+
 • Suggest most liveable and affordable suburbs in Victoria 
 
 ## Datasets:
 • Rental properties dataset acquired from scraping *domain.com.au*
+
 • Historical dataset acquired from *Department of Families, Fairness and Housing*
+
 • GDA2020 shapefile acquired from *data.gov.au*
+
 • PTV 
+
 • Population
+
 • Australian postcodes 
+
 
 ## Project Pipeline:
 1. Run the `m_scrape.py` in `scripts` to scrape data from *domain.com.au*

@@ -132,7 +132,6 @@ dmypy.json
 data/curated/
 data/raw/
 data/landing/
-data/population/
 
 # plots
 plots/migrants/

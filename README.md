@@ -2,10 +2,15 @@
 
 ## Team members:
 • Ngoc Minh Pham - 1312628
+
 • Ngoc Minh Vu - 
+
 • Duy Thinh Tran - 
+
 • Khanh Nam Nguyen - 
+
 • Tung Lam Le - 
+
 
 ## Research Goal:
 • Predict rental price in Victoria, and decide the most important features for prediction
@@ -36,6 +41,7 @@
 5. Run the `historical_rent.ipynb` in `notebooks` to extract historical rental data for visualisation and records of individual suburbs
 6. Run the `predict.ipynb` in `notebooks` to run the models for rental price predictions and future median rental price predictions
 
+
 ## Visualisation:
 1. Run `poi_visualisation` in `notebooks` for *points of interest* geospatial visualisation, plots can be found in `point_of_interest` in `plots`
 2. Geospatial visualisation for *median rental prices in March 2024* can be found in `march 2024 median` in `plots`
@@ -43,3 +49,4 @@
 4. Geospatial visualisation for *income across suburbs* and *jobs accross suburbs* can be found in `income` and `jobs` in `plots`
 5. Geospatial visualisation for *migrants across suburbs* can be found in `net_migrants` in `plots`
 6. Geospatial visualisation for ** can be found in `area` in `plots`
+

@@ -28,7 +28,7 @@
 
 • PTV 
 
-• Population
+• Population and Income data are acquired from *Australian Bureau of Statistics*
 
 • Australian postcodes 
 

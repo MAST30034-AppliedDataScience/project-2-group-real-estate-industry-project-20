@@ -5,7 +5,7 @@
 
 • Ngoc Minh Vu - 1375708
 
-• Duy Thinh Tran - 
+• Duy Thinh Tran - 1369324
 
 • Khanh Nam Nguyen - 1367184
 
@@ -26,11 +26,13 @@
 
 • GDA2020 shapefile acquired from *data.gov.au*
 
-• PTV 
+• PTV dataset for public transport "https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/"
+
+• Open Street Map (OSM) dataset for groceries stores in Victoria region.
 
 • Population and Income data are acquired from *Australian Bureau of Statistics*
 
-• Australian postcodes 
+• Australian postcodes *https://github.com/schappim/australian-postcodes/blob/master/australian-postcodes-2021-04-23.csv*
 
 
 ## Project Pipeline:

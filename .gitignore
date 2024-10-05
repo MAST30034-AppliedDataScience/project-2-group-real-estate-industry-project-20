@@ -136,3 +136,6 @@ data/population/
 
 # OSX .DS_Store file
 .DS_Store
+
+
+.env

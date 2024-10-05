@@ -41,11 +41,12 @@
 1. Run the `m_scrape.py` in `scripts` to scrape data from *domain.com.au*
 2. Run the `hospital_record` in `scripts` to get dataset for public hospital.
 3. Run the `groceries_record` in `scripts` to get dataset for shop records.
-4. Run the `preprocess_current_rent.ipynb` in `notebooks` to preprocess the scraped rental data for modelling 
-5. Run the `point_of_interest.ipynb` in `notebooks` to add features about transportations, shops and hospitals
-6. Run the `income.ipynb` then `population_and_migrants.ipynb` in `notebooks` to add features about income, migrants, jobs and estimated resident populations
-7. Run the `historical_rent.ipynb` in `notebooks` to extract historical rental data for visualisation and records of individual suburbs
-8. Run the `predict.ipynb` in `notebooks` to run the models for rental price predictions and future median rental price predictions
+4. Run the `preprocess_current_rent.ipynb` in `notebooks` to preprocess the scraped rental data for modelling
+5. Obtain your API_KEY from openrouteservice `https://openrouteservice.org` to run the notebook below
+6. Run the `point_of_interest.ipynb` in `notebooks` to add features about transportations, shops and hospitals
+7. Run the `income.ipynb` then `population_and_migrants.ipynb` in `notebooks` to add features about income, migrants, jobs and estimated resident populations
+8. Run the `historical_rent.ipynb` in `notebooks` to extract historical rental data for visualisation and records of individual suburbs
+9. Run the `predict.ipynb` in `notebooks` to run the models for rental price predictions and future median rental price predictions
 
 
 ## Visualisation:

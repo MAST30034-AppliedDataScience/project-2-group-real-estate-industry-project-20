@@ -38,6 +38,7 @@
 
 
 ## Project Pipeline:
+0. Run the `requirements.txt` to install all the necessary libraries
 1. Run the `m_scrape.py` in `scripts` to scrape data from *domain.com.au*
 2. Run the `hospital_record` in `scripts` to get dataset for public hospital.
 3. Run the `groceries_record` in `scripts` to get dataset for shop records.

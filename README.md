@@ -22,9 +22,9 @@
 ## Datasets:
 • Rental properties dataset acquired from scraping *domain.com.au*
 
-• Historical dataset acquired from *Department of Families, Fairness and Housing*
+• Historical dataset acquired from "https://www.dffh.vic.gov.au/publications/rental-report"
 
-• GDA2020 shapefile acquired from *data.gov.au*
+• GDA2020 shapefile acquired from "https://data.gov.au/dataset/ds-dga-bdf92691-c6fe-42b9-a0e2-a4cd716fa811/details"
 
 • PTV dataset for public transport "https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/"
 
@@ -50,7 +50,7 @@
 
 ## Visualisation:
 1. Run `poi_visualisation` in `notebooks` for *points of interest* geospatial visualisation, plots can be found in `point_of_interest` in `plots`
-2. Geospatial visualisation for *median rental prices in March 2024* can be found in `march 2024 median` in `plots`
+2. Geospatial visualisation for *median rental prices in June 2024* can be found in `june 2024 median` in `plots`
 3. Geospatial visualisation for *estimated resident populations* and  can be found in `erp`, `erp_per_km2` and `erp_increase` in `plots`
 4. Geospatial visualisation for *income across suburbs* and *jobs accross suburbs* can be found in `income` and `jobs` in `plots`
 5. Geospatial visualisation for *migrants across suburbs* can be found in `net_migrants` in `plots`

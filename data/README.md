@@ -8,7 +8,7 @@
 
 
 ## Historical Dataset
-• Historical rental dataset acquired from "https://www.dffh.vic.gov.au/publications/rental-report"
+• Historical rental dataset acquired from "https://www.dffh.vic.gov.au/publications/rental-report" --> `historical`
 
 Dataset covers median rental price and properties count quarterly from March 2000 to June 2024.
 
@@ -16,7 +16,9 @@ Dataset covers data for 231 suburbs, aggregated into 13 areas. Aggregated statis
 
 Dataset got 7 sheets: All properties, 1 bedroom flat, 2 bedroom flat, 3 bedroom flat, 2 bedroom house, 3 bedroom house, 4 bedroom house.
 
-• GDA2020 shapefile acquired from "https://data.gov.au/dataset/ds-dga-bdf92691-c6fe-42b9-a0e2-a4cd716fa811/details"
+`hist_rent_2024.xlsx` covers until March 2024. `hist_rent_2024_2.xlsx` covers until June 2024.
+
+• GDA2020 shapefile acquired from "https://data.gov.au/dataset/ds-dga-bdf92691-c6fe-42b9-a0e2-a4cd716fa811/details" --> `GDA2020`
 
 Shapefile contains geometry for suburbs in Victoria used to geospatially visualise median rental price in June 2024 based on historical dataset.
 

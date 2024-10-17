@@ -17,24 +17,7 @@
 
 • Predict top 10 suburbs with highest median rental price in Victoria for 2025, 2026 and 2027
 
-• Suggest most liveable and affordable suburbs in Victoria 
-
-## Datasets:
-• Rental properties dataset acquired from scraping *domain.com.au*
-
-• Historical dataset acquired from "https://www.dffh.vic.gov.au/publications/rental-report"
-
-• GDA2020 shapefile acquired from "https://data.gov.au/dataset/ds-dga-bdf92691-c6fe-42b9-a0e2-a4cd716fa811/details"
-
-• PTV dataset for public transport "https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/"
-
-• Open Street Map (OSM) dataset for groceries stores in Victoria region.
-
-• Public hospital dataset "https://data.gov.au/data/dataset/88a95824-c0e7-4ec0-bb78-b36223dd16a8/resource/43b9e4a4-0752-44c7-b825-bc32c46cf3b7/download/public_hospital_list.csv"
-
-• Population and Income data are acquired from *Australian Bureau of Statistics*
-
-• Australian postcodes *https://github.com/schappim/australian-postcodes/blob/master/australian-postcodes-2021-04-23.csv*
+• Suggest most liveable and affordable suburbs in Victoria.
 
 
 ## Project Pipeline:

@@ -28,8 +28,11 @@ Shapefile contains geometry for suburbs in Victoria used to geospatially visuali
 
 • Open Street Map (OSM) dataset for groceries stores in Victoria region.
 
+This dataset contains information on grocery markets in Victoria, including the name of the store, type (e.g., supermarket), street address, and geographical coordinates. 
+
 • Public hospital dataset "https://data.gov.au/data/dataset/88a95824-c0e7-4ec0-bb78-b36223dd16a8/resource/43b9e4a4-0752-44c7-b825-bc32c46cf3b7/download/public_hospital_list.csv"
 
+This dataset contains information about hospitals, including identifiers such as establishment ID, Medicare provider number, and Local Hospital Network details. It also includes the number of available beds, remoteness area classification, and hospital peer group codes. Additionally, the dataset indicates which hospitals provided data for national health datasets such as NPHE, NHMD, and others.
 
 ## Population and Income Datasets
 • Population and Income data are acquired from *Australian Bureau of Statistics*

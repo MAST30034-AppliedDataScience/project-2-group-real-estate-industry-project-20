@@ -1,7 +1,7 @@
 # Datasets
 
 
-## Renral Dataset
+## Rental Dataset
 • Rental properties dataset acquired from scraping *domain.com.au*
 
 • Australian postcodes *https://github.com/schappim/australian-postcodes/blob/master/australian-postcodes-2021-04-23.csv*

@@ -2,9 +2,11 @@
 
 
 ## Rental Dataset
+• Australian postcodes *https://github.com/schappim/australian-postcodes/blob/master/australian-postcodes-2021-04-23.csv*
+
 • Rental properties dataset acquired from scraping *domain.com.au*
 
-• Australian postcodes *https://github.com/schappim/australian-postcodes/blob/master/australian-postcodes-2021-04-23.csv*
+• Dataset contains 11,990 properties (updated on 09/09/2024) with 7 features: address, cost, rooms (number of bedrooms and bathrooms), parking (number of parking slots), type, num_schools (number of nearby schools), and desc (description)
 
 
 ## Historical Dataset

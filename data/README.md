@@ -27,6 +27,7 @@ Shapefile contains geometry for suburbs in Victoria used to geospatially visuali
 
 ## Point of Interest Datasets
 • PTV dataset for public transport "https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/"
+
  The dataset used is train and tram stations GDA2020 shapefile.
  Dataset covers metro and regional train stations and metro tram stations.
   
